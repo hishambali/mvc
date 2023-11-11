@@ -7,6 +7,7 @@ require_once  __DIR__.'/app/models/UserModel.php';
 require_once  __DIR__.'/Lib/DB/MysqliDb.php';
 
 /* $action = isset($_GET['action']) ? $_GET['action'] :'index'; */
+//ssdsdds
 $config = require __DIR__.'/config/config.php';
 $db = new MysqliDb (
     $config['db_host'],
